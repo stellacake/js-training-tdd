@@ -11,7 +11,9 @@
 //* Begin of tests
 const assert = require('assert');
 
-function id (entry) => return entry;
+function id (entry) {
+    return entry
+};
 
 assert.strictEqual(typeof id, 'function');
 assert.strictEqual(id.length, 1);
