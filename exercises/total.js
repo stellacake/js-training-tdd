@@ -8,6 +8,14 @@
 
 // Your code:
 
+const add = function (a, b) {
+    return a+b;
+}
+
+function total (array) {
+    return array.reduce(add);
+}
+
 //* Begin of tests
 const assert = require('assert');
 
